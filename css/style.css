@@ -1,0 +1,68 @@
+h1{
+    font-size: 3rem;
+    font-weight: 400;
+    color: green;
+}
+h2{
+    font-size: 4rem;
+}
+.item-container h2{
+    color: green;
+    font-weight: 400;
+}
+.item-row button{
+right: 0;
+top: 0;
+}
+
+.q2 h3{
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.q3{
+    background-color: seagreen;
+}
+.q3 .container p{
+    font-size: 4rem;
+}
+.timer-item{
+    width: 90px;
+    height: 90px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 20px;
+    text-align: center;
+    padding: 10px;
+}
+.timer-item h3,
+.timer-item h6{
+    font-weight: 300;
+}
+
+.color-item{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+
+.error-message{
+    color: red;
+    background-color: rgb(233, 204, 204);
+    padding: 5px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    display: none;
+}
